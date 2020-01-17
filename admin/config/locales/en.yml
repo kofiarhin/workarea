@@ -827,6 +827,18 @@ en:
           other: "%{count} Transactional Emails"
         type: Type
         updated_at: Updated
+      content_page_copies:
+        new:
+          title: Copy an existing page
+          description: Select a page to copy, then set a unique ID for the new page.
+          preselected_title: Copy %{page}
+          preselected_description: Set a unique ID for the new page.
+          button: Copy and Continue
+          fields:
+            source_product_id: Select a page to copy
+        flash_messages:
+          created: Page has been copied. You can now continue editing the copied page.
+          error: There was a problem copying this page. Try again.
       content_pages:
         aux_navigation:
           view_on_storefront: View on Storefront
