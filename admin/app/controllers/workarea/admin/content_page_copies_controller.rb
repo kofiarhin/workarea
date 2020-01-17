@@ -24,8 +24,8 @@ module Workarea
       private
 
       def find_source_product
-        return unless params[:source_page_id].present?
-        @page = Content::Page.find_by(slug: params[:source_page_id])
+        return unless params[:source_id].present?
+        @page = Content::Page.find_by(slug: params[:source_id])
       end
     end
   end

@@ -592,7 +592,7 @@ en:
           preselected_description: Set a unique ID for the new product.
           button: Copy and Continue
           fields:
-            source_product_id: Select a product to copy
+            source_id: Select a product to copy
           copy_original: Copy original?
           randomize: Randomize?
         flash_messages:
